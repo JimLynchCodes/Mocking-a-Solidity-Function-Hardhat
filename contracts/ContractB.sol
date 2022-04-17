@@ -2,18 +2,18 @@
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
-import "./ContractB.sol";
+import "./ContractA.sol";
 
 contract ContractB {
     
-    ContractB internal contractB;
+    ContractA internal contractA;
 
-    constructor (ContractB _contractB) {
-        contractB = _contractB;
+    constructor (ContractA _contractA) {
+        contractA = _contractA;
     }
     
     function doCalculation() public view returns (uint256) {
-        return contractB.getSomeNum() * 2;
+        return contractA.getSomeNum() * 2;
     }
 
 }

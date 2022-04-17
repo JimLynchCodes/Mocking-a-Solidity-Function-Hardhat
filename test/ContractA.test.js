@@ -13,7 +13,7 @@ describe("ContractA", function () {
 
     describe('getSomeNum', () => {
 
-        it("returns 1000", async function async () {
+        it("returns 1000", async function () {
             expect(await contractA.getSomeNum()).to.equal(1000);
         });
     

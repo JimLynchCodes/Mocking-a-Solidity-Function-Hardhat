@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/JimLynchCodes/Mocking-a-Solidity-Function-Hardhat.git"
   },
-  "author": "JimLynchCodes <jim.lynch@evaluates2.com> (https://evaluates2.com/)",
+  "author": "JimLynchCodes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JimLynchCodes/Mocking-a-Solidity-Function-Hardhat/issues"
